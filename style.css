@@ -15,6 +15,9 @@ body {
   );
   background-repeat: no-repeat; */
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Keyframes */
 @keyframes from-the-top {
