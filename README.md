@@ -1,2 +1,3 @@
 # Portfolio
-💼 A personal portfolio created using HTML, CSS, and JavaScript
+
+💼 A personal portfolio created using solely HTML and CSS.

@@ -102,7 +102,7 @@ html {
   color: black;
 }
 .navbar a:focus,
-a:active {
+.navbar a:active {
   color: black;
   background-color: rgb(226, 224, 224);
   border-radius: 50px;
@@ -443,6 +443,7 @@ a:active {
 .main__contact--details {
   color: rgb(16, 16, 16);
   padding-bottom: 20px;
+  text-align: center;
 }
 .main__contact--details a {
   color: black;
@@ -510,5 +511,155 @@ a:active {
 
 /* Media Queries --- NEED TO WORK ON */
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
+  .navbar {
+    width: 500px;
+  }
+  .main__home {
+    width: 600px;
+  }
+
+  .main__about {
+    width: 600px;
+  }
+  .main__projects {
+    width: 600px;
+  }
+
+  .main__skills {
+    width: 600px;
+  }
+
+  .main__contact {
+    width: 600px;
+  }
+  .main__contact--form {
+    width: 600px;
+  }
+  .main__contact--submit {
+    align-self: left-start;
+  }
+}
+@media (max-width: 600px) {
+  .navbar {
+    width: 400px;
+  }
+  .main__home {
+    width: 500px;
+  }
+  .main__about {
+    width: 400px;
+  }
+  .main__projects {
+    width: 400px;
+  }
+  .main__skills {
+    width: 400px;
+  }
+  .main__contact {
+    width: 400px;
+  }
+  .main__contact--form {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    width: 400px;
+  }
+  .main__home {
+    width: 400px;
+  }
+  .main__home--buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  .main__about {
+    width: 400px;
+  }
+  .main__projects {
+    width: 400px;
+  }
+  .main__project--card {
+    width: 400px;
+  }
+  .card__information {
+    width: 400px;
+  }
+  .main__skills {
+    width: 400px;
+  }
+  .main__experience--card {
+    width: 400px;
+  }
+  .card--information {
+    width: 300px;
+  }
+  .main__contact {
+    width: 400px;
+  }
+  .main__contact--form {
+    width: 400px;
+  }
+}
+@media (max-width: 300px) {
+  .navbar {
+    width: 100%;
+    border-radius: 0;
+    margin: 0px;
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    font-size: 11px;
+  }
+  .main__home {
+    width: 250px;
+  }
+  .main__home--heading {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .main__home--buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  .main__about {
+    width: 250px;
+  }
+  .main__projects {
+    width: 250px;
+  }
+  .main__project--card {
+    width: 250px;
+    height: 400px;
+  }
+  .card__information {
+    width: 250px;
+  }
+  .main__skills {
+    width: 250px;
+  }
+  .main__skills--title {
+    display: none;
+  }
+  .main__experience--card {
+    width: 250px;
+  }
+  .card--information {
+    width: 200px;
+  }
+  .main__contact {
+    width: 250px;
+  }
+  .main__contact--form {
+    width: 250px;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+  }
 }
